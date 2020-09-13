@@ -1,16 +1,25 @@
 {
   "name": "@ghranek/rg",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "Create React Components CLI",
   "main": "index.js",
-  "scripts": {
-    "generate": "plop"
-  },
   "bin": {
-    "rg": "./index.js"
+    "rg": "index.js"
   },
-  "keywords": [],
-  "author": "",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/midoghranek/rg.git"
+  },
+  "keywords": [
+    "CLI",
+    "React",
+    "Components",
+    "Generator"
+  ],
+  "author": "Muhammad Abu 'l-Gharaniq",
   "license": "ISC",
   "dependencies": {
     "minimist": "^1.2.5",
