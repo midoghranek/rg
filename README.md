@@ -8,7 +8,7 @@ $ npm install --save-dev @ghranek/rg
 
 OR
 
-```
+```shell
 $ yarn add -D @ghranek/rg
 ```
 
