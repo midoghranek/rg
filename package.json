@@ -1,20 +1,19 @@
 {
-  "name": "regc",
-  "version": "0.0.1",
+  "name": "@ghranek/rg",
+  "version": "0.1.6",
   "description": "Create React Components CLI",
   "main": "index.js",
   "scripts": {
-    "generate": "plop",
-    "g": "plop"
+    "generate": "plop"
   },
   "bin": {
-    "g": "plopfile.js"
+    "rg": "./index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
+    "minimist": "^1.2.5",
     "plop": "^2.7.4"
   }
 }
