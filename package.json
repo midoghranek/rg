@@ -1,0 +1,17 @@
+{
+  "name": "@ghranek/rg",
+  "version": "0.0.1",
+  "description": "Create React Components CLI",
+  "main": "index.js",
+  "scripts": {
+    "generate": "plop",
+    "g": "plop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "plop": "^2.7.4"
+  }
+}
