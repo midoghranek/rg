@@ -1,11 +1,14 @@
 {
-  "name": "@ghranek/rg",
+  "name": "regc",
   "version": "0.0.1",
   "description": "Create React Components CLI",
   "main": "index.js",
   "scripts": {
     "generate": "plop",
     "g": "plop"
+  },
+  "bin": {
+    "g": "plopfile.js"
   },
   "keywords": [],
   "author": "",
