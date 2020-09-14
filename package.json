@@ -1,6 +1,6 @@
 {
   "name": "@ghranek/rg",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Create React Components CLI",
   "main": "index.js",
   "bin": {

@@ -19,6 +19,10 @@ module.exports = (plop) => {
           type: "add",
           path: `../../../src/${command}s/{{pascalCase name}}/{{pascalCase name}}.module.scss`,
         },
+        {
+          type: "add",
+          path: `../../../src/${command}s/{{pascalCase name}}/{{pascalCase name}}.stories.js`,
+        },
       ],
     });
   }
