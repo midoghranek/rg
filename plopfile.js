@@ -27,6 +27,7 @@ module.exports = (plop) => {
     });
   }
 
+  generate("common");
   generate("component");
   generate("container");
   generate("page");
